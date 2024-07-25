@@ -52,6 +52,7 @@ body {
   font-size: xx-large;
   padding: 15px;
   width: 350px;
+  font-family: monospace;
 }
 
 .button-1:hover {
@@ -80,4 +81,9 @@ body {
 @keyframes marquee {
   0%   { transform: translate(0, 0); }
   100% { transform: translate(100%, 0); }
+}
+
+.thing-images {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
 }
